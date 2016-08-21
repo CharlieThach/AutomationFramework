@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="main" name="Running Ant">
+	<target name="main"	depends="compile">
+	<java classname="testFrameWork.loginGmail">
+		<classpath>
+			<pathelement path="./CompileCode"/>
+		</classpath>
+	</java>
+	</target>
+	
+	<target name="compile">
+	<javac srcdir="./src" destdir="./CompileCode"/>
+	</target>
+	
+	
+</project>
