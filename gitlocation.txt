@@ -1,5 +1,15 @@
+Initialize the folder to be git repository 
+ git init
+
 git add .
 git commit -m "message"
 git remote add origin https://github.com/CharlieThach/AutomationFramework.git
 git push -u origin master
 git clone https://github.com/CharlieThach/AutomationFramework.git
+
+git fetch
+git checkout master
+	if does not work
+	 git checkout master
+	 git pull origin(origin is a remote head) 
+

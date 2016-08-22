@@ -1,0 +1,21 @@
+#Author: Charlie Thach
+
+browser=webdriver.chrome.driver
+browserPath=./lib/chromedriver.exe
+
+#browser=
+#browserPath=
+
+reportPath=C:/Report/WowPage.html
+
+drivername=webdriver.chrome.driver
+chromedriver=./lib/chromedriver.exe
+user=choithach
+pass=choi1234
+
+
+urlWow=http://heroes-wow.com/wotlk/
+userWow=testest
+passWow=test1234
+pathToTestCases=C:/Users/Charles/Desktop/TestCases/wowTestCase.xls
+
