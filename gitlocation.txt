@@ -2,3 +2,4 @@ git add .
 git commit -m "message"
 git remote add origin https://github.com/CharlieThach/AutomationFramework.git
 git push -u origin master
+git clone https://github.com/CharlieThach/AutomationFramework.git
